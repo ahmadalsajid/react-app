@@ -27,6 +27,14 @@ class App extends React.Component {
         );
     }
 }
+/**
+ * in this example we will show you how to use forms from child component.
+ * onChange method will trigger state update that will be passed to the
+ * child input value and rendered on screen. The similar example was shown
+ * in our events tutorial. Whenever you need to update state from child
+ * component you need to pass function that will handle updating
+ * (updateState) as a prop (updateStateProp).
+ */
 
 class Content extends React.Component {
 
